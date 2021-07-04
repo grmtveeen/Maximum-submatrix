@@ -1,6 +1,6 @@
-The max sum is:    48.32
+The max sum:    48.32
 
-The coordinates elements from max matrix M*M is: (line, column)
+The coordinates elements from max matrix M*M: (line, column)
 
      (347,129)     (347,130)     (347,131)     (347,132)     (347,133)     (347,134)     (347,135)     (347,136)     (347,137)     (347,138)
      (348,129)     (348,130)     (348,131)     (348,132)     (348,133)     (348,134)     (348,135)     (348,136)     (348,137)     (348,138)
@@ -15,7 +15,7 @@ The coordinates elements from max matrix M*M is: (line, column)
 
 
 
-The max matrix M*M is:
+The max matrix M*M:
 
  0.601984	 0.215903	 0.244814	 0.414627	 0.694805	 0.738461	 0.814657	 0.629906	-0.115522	-0.083801	
 

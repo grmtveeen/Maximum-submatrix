@@ -31,11 +31,11 @@ void INFORMATION (double MATRIX[], int N, int M, int k, double MAXIMUM){
             cout<<"ERROR, can't open file to write."<<endl;
             exit(2);
     }
-    cout<<"The max sum is:    "<<MAXIMUM<<'\n'<<endl;
-    file<<"The max sum is:    "<<MAXIMUM<<'\n'<<endl;
+    cout<<"The max sum:    "<<MAXIMUM<<'\n'<<endl;
+    file<<"The max sum:    "<<MAXIMUM<<'\n'<<endl;
 
-    cout<<"The coordinates elements from max matrix M*M is: (line, column)"<<'\n'<<endl;
-    file<<"The coordinates elements from max matrix M*M is: (line, column)"<<'\n'<<endl;
+    cout<<"The coordinates elements from max matrix M*M: (line, column)"<<'\n'<<endl;
+    file<<"The coordinates elements from max matrix M*M: (line, column)"<<'\n'<<endl;
 
     int line=(k/N)+1;
     int column=k-(line-1)*N;
@@ -51,8 +51,8 @@ void INFORMATION (double MATRIX[], int N, int M, int k, double MAXIMUM){
     cout<<"\n\n"<<endl;
     file<<"\n\n"<<endl;
 
-    cout<<"The max matrix M*M is:"<<'\n'<<endl;
-    file<<"The max matrix M*M is:"<<'\n'<<endl;
+    cout<<"The max matrix M*M:"<<'\n'<<endl;
+    file<<"The max matrix M*M:"<<'\n'<<endl;
     for(int s=0; s<M; s++){
         for(int i=0; i<M; i++){
             cout<<setw(9)<<MATRIX[k-1+i+N*s]<<'\t';
